@@ -42,7 +42,7 @@ export default new Vuex.Store({
         numeroAula: "03",
         nomeAula: "Receituário",
         descricaoAula:
-          "Nesse tópico iremos aprender sobre os salgados fritos com uma massa profissional e outra saborizada, variando modelagens, com 4 deliciosos recheios e 3 diferentes tipos de empanamento. Também iremos aprender sobre gorduras para fritura, como congelar e servir seus salgados.",
+          "Nesta aula iremos aprender sobre opções de massas para a base da pizza, fazendo uma variação de sabor e trazendo uma proposta mais personalizada. Também será possível aprender como fazer um molho de tomate artesanal, recheios deliciosos e a montagem, para equilibrar sabor, textura e preço.",
         img: "aula-3.jpg",
         link: "/aula-03",
         receita_1_completa: false,
@@ -261,14 +261,14 @@ export default new Vuex.Store({
       if (state.aluno.length >= 3 && state.aluno.length < 15) {
         state.temNome = true;
         state.modalNome = false;
-        localStorage.setItem("fabricacao-de-pizza", JSON.stringify(state));
+        localStorage.setItem("fabricacao-de-pizza1", JSON.stringify(state));
       } else {
-        ("fabricacao-de-pizza");
+        ("fabricacao-de-pizza1");
         return;
       }
     },
     SALVAR_LOCAL_STORAGE(state) {
-      localStorage.setItem("fabricacao-de-pizza", JSON.stringify(state));
+      localStorage.setItem("fabricacao-de-pizza1", JSON.stringify(state));
     },
 
     COMPLETAR_AULA_1(state) {
@@ -276,14 +276,14 @@ export default new Vuex.Store({
         state.progresso = state.progresso + 5;
       }
       state.aulas[0].completa = true;
-      localStorage.setItem("fabricacao-de-pizza", JSON.stringify(state));
+      localStorage.setItem("fabricacao-de-pizza1", JSON.stringify(state));
     },
     COMPLETAR_AULA_2(state) {
       if (!state.aulas[1].completa) {
         state.progresso = state.progresso + 5;
       }
       state.aulas[1].completa = true;
-      localStorage.setItem("fabricacao-de-pizza", JSON.stringify(state));
+      localStorage.setItem("fabricacao-de-pizza1", JSON.stringify(state));
     },
     COMPLETAR_RECEITA_1(state) {
       if (!state.aulas[2].receita_1_completa) {
@@ -291,7 +291,7 @@ export default new Vuex.Store({
       }
       state.aulas[2].receita_1_completa = true;
       state.receitas[0].finalizada = true;
-      localStorage.setItem("fabricacao-de-pizza", JSON.stringify(state));
+      localStorage.setItem("fabricacao-de-pizza1", JSON.stringify(state));
     },
     COMPLETAR_RECEITA_2(state) {
       if (!state.aulas[2].receita_2_completa) {
@@ -299,7 +299,7 @@ export default new Vuex.Store({
       }
       state.aulas[2].receita_2_completa = true;
       state.receitas[1].finalizada = true;
-      localStorage.setItem("fabricacao-de-pizza", JSON.stringify(state));
+      localStorage.setItem("fabricacao-de-pizza1", JSON.stringify(state));
     },
     COMPLETAR_RECEITA_3(state) {
       if (!state.aulas[2].receita_3_completa) {
@@ -307,7 +307,7 @@ export default new Vuex.Store({
       }
       state.aulas[2].receita_3_completa = true;
       state.receitas[2].finalizada = true;
-      localStorage.setItem("fabricacao-de-pizza", JSON.stringify(state));
+      localStorage.setItem("fabricacao-de-pizza1", JSON.stringify(state));
     },
     COMPLETAR_RECEITA_4(state) {
       if (!state.aulas[2].receita_4_completa) {
@@ -315,7 +315,7 @@ export default new Vuex.Store({
       }
       state.aulas[2].receita_4_completa = true;
       state.receitas[3].finalizada = true;
-      localStorage.setItem("fabricacao-de-pizza", JSON.stringify(state));
+      localStorage.setItem("fabricacao-de-pizza1", JSON.stringify(state));
     },
     COMPLETAR_RECEITA_5(state) {
       if (!state.aulas[2].receita_5_completa) {
@@ -323,7 +323,7 @@ export default new Vuex.Store({
       }
       state.aulas[2].receita_5_completa = true;
       state.receitas[4].finalizada = true;
-      localStorage.setItem("fabricacao-de-pizza", JSON.stringify(state));
+      localStorage.setItem("fabricacao-de-pizza1", JSON.stringify(state));
     },
     COMPLETAR_RECEITA_6(state) {
       if (!state.aulas[2].receita_6_completa) {
@@ -331,7 +331,7 @@ export default new Vuex.Store({
       }
       state.aulas[2].receita_6_completa = true;
       state.receitas[5].finalizada = true;
-      localStorage.setItem("fabricacao-de-pizza", JSON.stringify(state));
+      localStorage.setItem("fabricacao-de-pizza1", JSON.stringify(state));
     },
     COMPLETAR_RECEITA_7(state) {
       if (!state.aulas[2].receita_7_completa) {
@@ -339,7 +339,7 @@ export default new Vuex.Store({
       }
       state.aulas[2].receita_7_completa = true;
       state.receitas[6].finalizada = true;
-      localStorage.setItem("fabricacao-de-pizza", JSON.stringify(state));
+      localStorage.setItem("fabricacao-de-pizza1", JSON.stringify(state));
     },
     COMPLETAR_RECEITA_8(state) {
       if (!state.aulas[2].receita_8_completa) {
@@ -347,7 +347,7 @@ export default new Vuex.Store({
       }
       state.aulas[2].receita_8_completa = true;
       state.receitas[7].finalizada = true;
-      localStorage.setItem("fabricacao-de-pizza", JSON.stringify(state));
+      localStorage.setItem("fabricacao-de-pizza1", JSON.stringify(state));
     },
     COMPLETAR_RECEITA_9(state) {
       if (!state.aulas[2].receita_9_completa) {
@@ -355,7 +355,7 @@ export default new Vuex.Store({
       }
       state.aulas[2].receita_9_completa = true;
       state.receitas[8].finalizada = true;
-      localStorage.setItem("fabricacao-de-pizza", JSON.stringify(state));
+      localStorage.setItem("fabricacao-de-pizza1", JSON.stringify(state));
     },
     COMPLETAR_RECEITA_10(state) {
       if (!state.aulas[2].receita_10_completa) {
@@ -363,7 +363,7 @@ export default new Vuex.Store({
       }
       state.aulas[2].receita_10_completa = true;
       state.receitas[9].finalizada = true;
-      localStorage.setItem("fabricacao-de-pizza", JSON.stringify(state));
+      localStorage.setItem("fabricacao-de-pizza1", JSON.stringify(state));
     },
     COMPLETAR_RECEITA_11(state) {
       if (!state.aulas[2].receita_11_completa) {
@@ -371,7 +371,7 @@ export default new Vuex.Store({
       }
       state.aulas[2].receita_11_completa = true;
       state.receitas[10].finalizada = true;
-      localStorage.setItem("fabricacao-de-pizza", JSON.stringify(state));
+      localStorage.setItem("fabricacao-de-pizza1", JSON.stringify(state));
     },
     COMPLETAR_RECEITA_12(state) {
       if (!state.aulas[2].receita_12_completa) {
@@ -379,7 +379,7 @@ export default new Vuex.Store({
       }
       state.aulas[2].receita_12_completa = true;
       state.receitas[11].finalizada = true;
-      localStorage.setItem("fabricacao-de-pizza", JSON.stringify(state));
+      localStorage.setItem("fabricacao-de-pizza1", JSON.stringify(state));
     },
 
     SHOW_MODAL_COMPLETAR_AULA_1(state) {
@@ -387,21 +387,21 @@ export default new Vuex.Store({
     },
     initialiseStore(state) {
       // Check if the ID exists
-      if (localStorage.getItem("fabricacao-de-pizza")) {
+      if (localStorage.getItem("fabricacao-de-pizza1")) {
         // Replace the state object with the stored item
         this.replaceState(
           Object.assign(
             state,
-            JSON.parse(localStorage.getItem("fabricacao-de-pizza"))
+            JSON.parse(localStorage.getItem("fabricacao-de-pizza1"))
           )
         );
         if (state.aluno.length >= 3) {
           state.bemVindoDeVolta = true;
         }
-        localStorage.setItem("fabricacao-de-pizza", JSON.stringify(state));
+        localStorage.setItem("fabricacao-de-pizza1", JSON.stringify(state));
       } else {
         state.modalNome = true;
-        localStorage.setItem("fabricacao-de-pizza", JSON.stringify(state));
+        localStorage.setItem("fabricacao-de-pizza1", JSON.stringify(state));
       }
     },
   },

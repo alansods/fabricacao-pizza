@@ -95,10 +95,10 @@
           </h2>
           <hr class="border-t-1 border-gray-300 my-5 md:my-10" />
         </div>
-        <p class="text-xl text-left">Olá, <NomeAluno />!</p>
+        <p class="text-xl text-left">Olá, <NomeAluno />! Seja bem-vindo ao curso de <strong>Fabricação de Pizza!</strong></p>
 
         <p class="text-left">
-          O pão é usado como sinônimo de vida e trabalho, alimento do corpo e da alma, fazendo parte da cultura de muitos povos, com um significado importante em várias religiões e está presente todos os dias na mesa do brasileiro. E a produção de tortas salgadas também é baseada em ingredientes e processos da produção de pães. Neste curso você aprenderá técnicas e processos para a produção de pães e tortas salgadas, com recheios variados, métodos de conservação e apresentação.
+          Esta iguaria da gastronomia italiana foi amplamente difundida em meados do século XIX, em 1889. A primeira <strong>pizza</strong> em terras brasileiras chegou com os imigrantes italianos, sendo São Paulo o primeiro estado <strong>brasileiro</strong> a receber as pizzas redondas. Neste curso, além de aprender um pouco sobre a história da pizza, você irá desenvolver habilidades e competências para fazer receitas deliciosas em casa, tendo a oportunidade de empreender ou até trabalhar em uma pizzaria.
         </p>
 
       </div>

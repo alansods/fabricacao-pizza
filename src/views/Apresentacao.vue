@@ -95,7 +95,11 @@
           </h2>
           <hr class="border-t-1 border-gray-300 my-5 md:my-10" />
         </div>
-        <p class="text-xl text-left">Olá, <NomeAluno />! Seja bem-vindo ao curso de <strong>Fabricação de Pizza!</strong></p>
+        <p class="text-xl text-left">Olá, <NomeAluno />!</p>
+
+        <p class="text-left">
+          Seja bem-vindo ao curso de <strong>Fabricação de Pizza!</strong>
+        </p>
 
         <p class="text-left">
           Esta iguaria da gastronomia italiana foi amplamente difundida em meados do século XIX, em 1889. A primeira <strong>pizza</strong> em terras brasileiras chegou com os imigrantes italianos, sendo São Paulo o primeiro estado <strong>brasileiro</strong> a receber as pizzas redondas. Neste curso, além de aprender um pouco sobre a história da pizza, você irá desenvolver habilidades e competências para fazer receitas deliciosas em casa, tendo a oportunidade de empreender ou até trabalhar em uma pizzaria.
